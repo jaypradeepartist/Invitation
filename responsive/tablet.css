@@ -1,0 +1,140 @@
+.l-c {
+    left: 0;
+    top: 0;
+}
+
+.l-c img {
+    height: 80%;
+    width: 100%;
+}
+
+.r-c {
+    right: 0;
+    top: 0;
+}
+
+.r-c img {
+    height: 80%;
+    width: 100%;
+}
+
+
+.container img {
+    height: 50%;
+    width: 45%;
+    display: block;
+}
+
+.save-our-date {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.l-t-d {
+    width: 100%;
+}
+
+.l-t-d h2 {
+    font-size: 50px;
+}
+
+.r-t-d {
+    width: 100%;
+}
+
+
+.images-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.images-content img {
+    width: 28%;
+    padding: 0 20px;
+    border: 0px solid 20px;
+}
+
+
+.design-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design-by h3 {
+    color: #4F1774;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+
+/* Animations */
+
+
+.l-c {
+    animation-name: l-c;
+    animation-duration: 3s; 
+}
+
+@keyframes l-c {
+    0% {
+        position: relative;
+        left: -50px;
+        top: -50px;
+    }
+
+    100% {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.r-c {
+    animation-name: r-c;
+    animation-duration: 3s; 
+}
+
+@keyframes r-c {
+    0% {
+        right: -50px;
+        top: -50px;
+    }
+
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
+
+/* Ganesha Animation */
+
+.container img {
+    animation-name: ganesha-img;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ganesha-img {
+    0% {
+        opacity: 0;
+        height: 50%;
+        width: 50%;
+    }
+
+    100% {
+        opacity: 1;
+        height: 45%;
+        width: 45%;
+    }
+
+}
+
