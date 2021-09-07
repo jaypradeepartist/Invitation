@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cursive Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="./responsive/tablet.css">
+    <link rel="stylesheet" media="all and (max-width: 600px)" href="./responsive/mobile.css">
+    <link rel="shortcut icon" href="./img/logo-icon.svg" type="image/x-icon">
+
+
+    <title>Anmol weds Yogitha</title>
+</head>
+
+
+<body>
+
+    <!-- Ganesha -->
+
+<div class="sticky">
+        <div class="l-c">
+            <img src="/img/l-c.svg" alt="">
+        </div>
+
+        <div class="r-c">
+            <img src="/img/r-c.svg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <img src="/img/Ganesha-01.png" alt="">
+    <div class="ganesh">
+        <h1>Shree Ganesha Namah</h1>
+    </div>
+</div>
+
+
+    <!-- Save Our Date -->
+
+<div class="save-our-date">
+        <div class="l-t-d">
+            <h1>SAVE OUR DATE</h1>
+            <h2>Anmol Kathal <span class="color-change">weds</span> Yogitha</h2>
+            <h3>29.Nov.2021</h3>
+        </div>
+        <div class="r-t-d">
+            <img src="/img/r-t-d.svg" alt="">
+        </div>
+</div>
+
+
+
+<div class="invitation">
+
+    <div class="js-invitation">
+        <script>
+
+            // let enterName = prompt('Enter Your Name');
+    
+            // if (enterName === null) {
+            //     document.write('Your Name');
+            // } else {
+            //     document.write(enterName);
+            // }
+
+            let username = sessionStorage.getItem("username");
+
+            if(!username)
+            {username = prompt("Please Enter Your Name");
+            sessionStorage.setItem("username", username);
+            document.write(username);
+    }  else if (username === "null") {
+        document.write("Your Name");
+    }  else if (sessionStorage.getItem(username === "null")) {
+        document.write("Your Name");
+    } else {
+        username = document.write(sessionStorage.getItem("username", username));
+    }
+
+        
+    
+            </script>
+    </div>
+
+    
+
+    <div class="invitation-write">
+
+        <h1>YOU ARE <br> INVITED</h1>
+    </div>
+    
+    <div class="weds">
+        <img src="./img/icon-weds.svg" alt="">
+    </div>
+
+    <div class="dates">
+        <img src="" alt="">
+    </div>
+
+    <div class="venue">
+        <h3>AT 3PM IN THE AFTERNOON</h3>
+
+        <h1>Venue</h1>
+        <h3>Maharastra</h3>
+    </div>
+       
+</div>
+
+<div class="images-content">
+    <img src="./img/weds/img-02.jpeg" alt="">
+    <img src="./img/weds/img-01.jpeg" alt="">
+    <img src="./img/weds/img-03.jpeg" alt="">
+</div>
+
+<footer>
+    <div class="btm-img">
+        <img src="./img/b-graphic.svg" alt="">
+    </div>
+    <div class="design-by"> 
+        <h3>
+
+            &copy; All Rights Reserved | Design by&nbsp;<a href="https://pradeepgiri.netlify.app/">Pradeep Giri</a>
+        </h3>
+    </div>
+</footer>
+
+</body>
+</html>
